@@ -1,0 +1,12 @@
+# Sample NMEA parameter configuration
+rate: 8
+
+frame_id: gps_front
+device: /dev/ttyGPS1
+tmode3: 0            # Survey-In Mode
+gnss:
+  gps: true
+  glonass: true
+  galileo : true
+  beidou : true
+
